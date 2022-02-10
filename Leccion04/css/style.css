@@ -1,0 +1,34 @@
+table{
+    width: 100%;
+}
+table, th, td{
+    border: 1px solid black;/*para darle borde y color al borde */
+    border-collapse: collapse; /*para que se colapse el bode y no uestre espacio entre los bordes */
+    /*border-spacing: 5px; /*para darle masespacio en el borde pero si ponemos este debemos quitar el borde colapsado */
+    padding: 5px; /*para darle mas espacio entre los elementos*/
+}
+caption{
+    color: #e63646;
+    font-family: 'Tocchi',srif;
+    font-size: 45px;
+    line-height: 70px;
+}
+th{
+    color:#f1faee;
+    background-color: #1d3557;
+}
+/*para renglones pares*/
+tr:nth-child(even){
+    background-color:#f1faee;
+}
+/*para renglones impares */
+tr:nth-child(odd){
+    background-color: #a8dadc;
+}
+
+/*td{
+    text-align: center;
+}
+th{
+    text-align:left;
+}*/

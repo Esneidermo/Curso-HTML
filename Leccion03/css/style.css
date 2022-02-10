@@ -1,0 +1,17 @@
+h1{
+    color:#560bad
+}
+a:link, a:visited{
+    background-color: #b5179e;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    /*para dar forma de un boton a un link */
+    display: inline-block;
+    /*para que cada uno tenga su espacio*/
+}
+a:hover, a:active{
+    background-color: #f72585;
+    /*para dar forma al boton cuando de ponga encima o de clic */
+}
